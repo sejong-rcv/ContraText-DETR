@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project specific
+output/
+wandb/
+vis/
+visualizations/
+*.pth
+*.onnx
+*.pkl
+
+# Logs
+*.log
+fps_log.txt
+conversion_log.txt
+*_log.txt
+events.out.tfevents.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Results and checkpoints
+results/
+checkpoints/
+*.weights
+test_results/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.debug
+*.profile
+core.*
+
+# Dataset files (but keep scripts and configs)
+datasets/**/*.txt
+datasets/**/*.json
+datasets/**/*.jpg
+datasets/**/*.png
+datasets/**/*.gif
+datasets/**/images/
+datasets/**/annotations/
+!datasets/**/README.md
+!datasets/**/*.py
+!datasets/**/*.yaml
+
+# Demo outputs
+demo/output/
+demo/results/
+demo/**/*.jpg
+demo/**/*.png
+demo/**/*.gif
+
+# Additional training artifacts
+*.pth.tar
+*.pt
+model_final*
+last_checkpoint 
